@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    background-color: lightblue;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.column{
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #211189;
+}
+
+.active {
+    background-color: #56C6D9;
+}
